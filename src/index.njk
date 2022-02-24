@@ -1,10 +1,11 @@
 ---
 layout: layouts/base.njk
-name: "[YOUR NAME HERE]"
-title: "[YOUR NAME HERE]’s Résumé"
-subtitle: "[Underwater Basket Weaving and Podcasting]"
-description: "[YOUR NAME HERE] is [DOING IMPRESSIVE AND WONDERFUL THINGS]."
-summary: I'm the best there is at what I do.
+name: "BRIAN GAN"
+title: "Brian's Résumé"
+subtitle: ""
+description: "[YOUR NAME HERE] is [DOING IMPRESSIVE AND WONDERFUL THINGS]." 
+summary: Pennsylvania State University junior student majoring in Cyber Security. Web developer intern for a non-profit organization and built on professional workforce skills as a board member for a student organization. Acquired the Security+ certification and looking forward to pursuing other certifications in the future. I am especially interested in penetration testing, however, I am open to gaining experience anywhere in the Cyber Security world.
+
 ---
 
 <header>
@@ -15,7 +16,7 @@ summary: I'm the best there is at what I do.
 <main>
     <section class="contact">
         <header class="small"><h1>Contact</h1></header>
-        <address>[YOUR CITY]</address>
+        <address>Philadelphia, PA</address>
 
         <ul>
             {% for item in contact.items %}
@@ -47,7 +48,9 @@ summary: I'm the best there is at what I do.
         <header><h1>Education</h1></header>
         <dl>
             {% for item in education.items %}
-            <dt>{{ item.name }}</dt>
+            <dt>{{ item.name }}
+            <small>{{ item.dates }}</small>
+            </dt>
             <dd>{{ item.description }}</dd>
             {% endfor %}
         </dl>

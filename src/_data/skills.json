@@ -1,7 +1,24 @@
 {
     "items": [
-        { "name": "Cat Wrangling" },
-        { "name": "Basket Weaving" },
-        { "name": "Git" }
+        { "name": "GitHub" },
+        { "name": "Splunk" },
+        { "name": "MySQL" },
+        { "name": "Nmap" },
+        { "name": "Metasploit" },
+        { "name": "VMWare" },
+        { "name": "Jira" },
+        { "name": "Java" },
+        { "name": "Python" },
+        { "name": "SQL" },
+        { "name": "Git" },
+        { "name": "Bash" },
+        { "name": "JavaScript" },
+        { "name": "English" },
+        { "name": "Cantonese" },
+        { "name": "Mandarin" },
+        { "name": "Windows" },
+        { "name": "Linux" },
+        { "name": "MacOS" },
+        { "name": "iOS" }
     ]
 }

@@ -1,16 +1,10 @@
 {
     "items": [
         {
-            "title": "Cat Wrangler",
-            "company": "Latest Company",
-            "dates": "2018-Present",
-            "description": "Doing nice and wonderful things."
-        },
-        {
-            "title": "Junior Cat Wrangler",
-            "company": "Previous Company",
-            "dates": "2016-Present",
-            "description": "Doing things that helped me grow and become as clever as I am today."
+            "title": "Philadelphia Suns Web Developer Intern",
+            "company": "",
+            "dates": "January 2021 - Present",
+            "description": "Developed a platform to automate manual processes using WIX APIs and basic JavaScript. Configured custom settings to ensure databases are locked down to least privilege access for all users. Built uploads page feature so members can upload and view their clearances on the members portal. Generated dashboards for site admins to view member uploads and information. Engaged in weekly Scrum meetings and used Jira and GitHub to execute Agile methodologies."
         }
     ]
 }
